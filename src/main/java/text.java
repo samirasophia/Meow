@@ -3,4 +3,5 @@ public class text {
         System.out.println("hallo db sfknvbs snvm.");
     }
     String meow = "Anni isch gemein >:(";
+    String rawr;
 }
