@@ -11,7 +11,7 @@ public class Palindrom {
         String wort = sc.nextLine();
 
         if (Palindrom(wort)) {
-            System.out.println(wort + " ist ein Palindrom.");
+            System.out.println(wort + " ist ein Palndrom.");
         } else {
             System.out.println(wort + " ist kein Palindro.");
         }
