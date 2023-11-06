@@ -8,12 +8,12 @@ public class Palindrom {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Gib ein Wort ein: ");
-        String wort = sc.nextLine();
+        String rawr = sc.nextLine();
 
-        if (Palindrom(wort)) {
-            System.out.println(wort + " ist ein Palndrom.");
+        if (Palindrom(rawr)) {
+            System.out.println(rawr + " ist ein Palndrom.");
         } else {
-            System.out.println(wort + " ist kein Palindro.");
+            System.out.println(rawr + " ist kein Palindro.");
         }
     }
 
@@ -27,4 +27,4 @@ public class Palindrom {
         return true;
     }
 }
-
+//rawr für meh drip drip
