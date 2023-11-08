@@ -1,6 +1,6 @@
 package org.example;
 
-public class Car {
+public class BuchObjekt {
 
   private  String autor;
     private String verlag;
@@ -39,7 +39,7 @@ public class Car {
         this.bewertung = bewertung;
     }
 
-    public Car(String autor, int jahr, double bewertung, String verlag) {
+    public BuchObjekt(String autor, int jahr, double bewertung, String verlag) {
         this.autor = autor;
         this.jahr = jahr;
         this.bewertung = bewertung;

@@ -1,11 +1,12 @@
 package org.example;
 import java.util.Scanner;
-public class CarObjekt {
+public class BuchObjektÜbung {
     //Aufgrund deutscher Bücher wurden ausschliesslich deutsche Variablenamen verwendet.
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String weitermachen;
-        Car FarmDerTiere = new Car("George Owell", 1984, 7.5, "anaconda");
+        BuchObjekt FarmDerTiere = new BuchObjekt("George Owell", 1984, 7.5, "anaconda");
         do {
             System.out.println("Was willst du ändern");
             String auswahl = sc.nextLine();
