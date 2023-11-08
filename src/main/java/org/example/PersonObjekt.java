@@ -10,5 +10,10 @@ Person myPerson = new Person("Silvan","Männlich", 21);
         cPerson.Vorstellen();
         Person bPerson = new Person("Sila","Männic", 17);
         bPerson.Vorstellen();
+        if(aPerson.Name.equalsIgnoreCase(bPerson.Name)){
+            System.out.println("meow");
+        } else {
+            System.out.println("miau");
+        }
     }
 }
