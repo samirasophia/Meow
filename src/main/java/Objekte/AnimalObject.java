@@ -1,7 +1,8 @@
-package org.example;
+package Objekte;
+
+import Objekte.Animal;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class AnimalObject {
     public static void main(String[] args) {

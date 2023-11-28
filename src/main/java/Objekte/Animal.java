@@ -1,4 +1,4 @@
-package org.example;
+package Objekte;
 
 public class Animal {
 

@@ -1,4 +1,4 @@
-package org.example;
+package Objekte;
 
 public class PersonObjekt {
     public static void main(String[] args) {

@@ -17,6 +17,7 @@ public class Gerade {
         } else {
             int aaaa = x*2;
             return aaaa;
+
         }
     }}
 

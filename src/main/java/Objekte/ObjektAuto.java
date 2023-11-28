@@ -1,4 +1,6 @@
-package org.example;
+package Objekte;
+
+import Objekte.Cars;
 
 public class ObjektAuto {
     public static void main(String[] args) {
