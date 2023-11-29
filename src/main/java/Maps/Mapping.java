@@ -1,5 +1,6 @@
 package Maps;
 
+import java.security.Key;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -15,6 +16,7 @@ int num = count(medecine);
         System.out.println(num);
         name(medecine);
         print(medecine);
+        print(medecine);
     }
     public static int count (Map<?, ?> medecine){
        return medecine.size();
@@ -26,9 +28,10 @@ int num = count(medecine);
         medecine.remove(x);
     }
     public static void print (Map<?, ?> medecine){
-        for (medecine.Entry<String, String> entry : medecine.entrySet()){
-            System.out.println(medecine.get());
-            System.out.println(entry.getKey() + entry.getValue);
+        for (Map.Entry<?, ?> entry : medecine.entrySet()){
+            String key = (String) entry.getKey();
+            String value = (String) entry.getValue();
+            System.out.println(key + value);
         }
     }
 
